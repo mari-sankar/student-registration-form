@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Student Registration Form</title>
+</head>
+<body>
+  <form id="registration-form">
+    <h1>Student Registration Form</h1>
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" name="first-name" required>
+    
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" name="last-name" required>
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+    
+    <div class="gender">
+        <label>Gender:</label>
+        <div class="male">
+            <input type="checkbox" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div class="female">
+            <input type="checkbox" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+    </div>
+    
+    <label for="grade">Grade:</label>
+    <input type="text" id="grade" name="grade" required>
+    
+    <label for="languages">Languages Spoken:</label>
+    <input type="text" id="languages" name="languages" required>
+    
+    <label for="siblings">Details of Siblings:</label>
+    <textarea id="siblings" name="siblings"></textarea>
+    
+    <h2>Parent's Information</h2>
+    
+    <h3>Father's Details</h3>
+    <label for="father-name">Father's Name:</label>
+    <input type="text" id="father-name" name="father-name" required>
+    
+    <label for="father-qualification">Father's Qualification:</label>
+    <input type="text" id="father-qualification" name="father-qualification" required>
+    
+    <label for="father-phone">Father's Phone Number:</label>
+    <input type="tel" id="father-phone" name="father-phone" required>
+    
+    <label for="father-email">Father's Email:</label>
+    <input type="email" id="father-email" name="father-email" required>
+    
+    <label for="father-occupation">Father's Occupation:</label>
+    <input type="text" id="father-occupation" name="father-occupation" required>
+    
+    <h3>Mother's Details</h3>
+    <label for="mother-name">Mother's Name:</label>
+    <input type="text" id="mother-name" name="mother-name" required>
+    
+    <label for="mother-qualification">Mother's Qualification:</label>
+    <input type="text" id="mother-qualification" name="mother-qualification" required>
+    
+    <label for="mother-phone">Mother's Phone Number:</label>
+    <input type="tel" id="mother-phone" name="mother-phone" required>
+    
+    <label for="mother-email">Mother's Email:</label>
+    <input type="email" id="mother-email" name="mother-email" required>
+    
+    <label for="mother-occupation">Mother's Occupation:</label>
+    <input type="text" id="mother-occupation" name="mother-occupation" required>
+    <h2>Residential Address</h2>
+    <textarea id="address" name="address" required></textarea>
+    <h2>Payment Details</h2>
+    <div class="payment">
+        <div class="cash">
+            <input type="checkbox" id="cash" name="payment" value="cash">
+            <label for="cash">Cash</label>
+        </div>
+        <div class="check">
+            <input type="checkbox" id="check" name="payment" value="check">
+            <label for="check">Check</label>
+        </div>
+        <div class="card">
+            <input type="checkbox" id="card" name="payment" value="card">
+            <label for="card">Card</label>
+        </div>
+    </div>
+    <h2>Terms and Conditions</h2>
+    <div class="condition">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions</label>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    margin-top: 10px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .payment, .gender {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+  }
+  .gender{
+    margin: 8px 0 15px 0;
+  }
+  .cash, .card, .check, .condition, .male, .female {
+    display: flex;
+    flex-direction: row;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
